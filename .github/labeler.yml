@@ -1,0 +1,6 @@
+release:
+  - head-branch: ["changeset-release/main"]
+staging:
+  - base-branch: "staging"
+prod:
+  - base-branch: "main"

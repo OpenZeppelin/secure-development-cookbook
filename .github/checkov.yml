@@ -1,0 +1,8 @@
+---
+# You can see all available properties here: https://github.com/bridgecrewio/checkov#configuration-using-a-config-file
+quiet: true
+skip-check:
+  # GHA7 errors on custom Action triggers that we have in our repo.
+  - CKV_GHA_7
+  # CKV2_GHA_1 errors on custom workflows that are not using write-all.
+  - CKV2_GHA_1

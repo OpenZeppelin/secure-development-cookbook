@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Do you want to discuss ideas or ask questions about the process?
+    url: https://forum.openzeppelin.com/
+    about: Use the OpenZeppelin forum for related discussion!
