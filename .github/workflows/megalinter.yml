@@ -121,7 +121,7 @@ jobs:
         # Use head_ref when PR is created and ref_name when manually run
         env:
           BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
           commit-message: "[MegaLinter] Apply linter automatic fixes"
