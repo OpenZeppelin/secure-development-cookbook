@@ -1,0 +1,19 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^https://reqbin.com/req/"
+    },
+    {
+      "pattern": "^https://github.com/openzeppelin/compound-monitoring-v3/actions"
+    },
+    {
+      "pattern": "^https://github.com/openzeppelin/compound-monitoring-v3/workflows"
+    },
+    {
+      "pattern": "^https://faucet.polygon.technology/"
+    }
+  ],
+  "retryOn429": true,
+  "retryCount": 5,
+  "aliveStatusCodes": [200, 203]
+}
