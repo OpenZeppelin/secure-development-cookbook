@@ -1,9 +1,8 @@
 {
   "name": "@openzeppelin/secure-development-cookbook",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "MIT",
-  "scripts":
-  {
+  "scripts": {
     "version": "yarn changeset version",
     "release": "yarn changeset publish"
   },
