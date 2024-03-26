@@ -6,7 +6,7 @@
   {
     "version": "yarn changeset version",
     "release": "yarn changeset publish"
-  }
+  },
   "description": "The essential blueprint for crafting secure protocols",
   "main": "index.js",
   "keywords": [],
