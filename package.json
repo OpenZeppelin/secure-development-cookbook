@@ -1,5 +1,5 @@
 {
-  "name": "@openzeppelin/secure-development-cookbook",
+  "name": "secure-development-cookbook",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
