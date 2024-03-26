@@ -13,6 +13,7 @@ jobs:
       contents: write # to create release (changesets/action)
       issues: write # to post issue comments (changesets/action)
       pull-requests: write # to create pull request (changesets/action)
+      packages: write # to publish github package
     timeout-minutes: 20
     runs-on: ubuntu-latest
     steps:
