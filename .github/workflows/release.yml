@@ -23,6 +23,13 @@ jobs:
       - uses: "./.github/setup"
       - name: install dependencies
         run: yarn install
+      - name: Creating .npmrc
+        run: |
+          cat << EOF > "$HOME/.npmrc"
+            //npm.pkg.github.com/:_authToken=$NPM_TOKEN
+          EOF
+        env:
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create Release Pull Request or Publish to npm
         uses: changesets/action@v1
         with:
