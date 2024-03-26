@@ -6,6 +6,9 @@
     "version": "yarn changeset version",
     "release": "yarn changeset publish"
   },
+   "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "description": "The essential blueprint for crafting secure protocols",
   "main": "index.js",
   "keywords": [],
