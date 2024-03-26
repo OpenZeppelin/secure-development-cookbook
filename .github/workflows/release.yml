@@ -19,8 +19,8 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: lts/*
-      - uses: "./.github/setup"
+          node-version: 18
+      - uses: './.github/setup'
       - name: install dependencies
         run: yarn install
       - name: Creating .npmrc
@@ -35,8 +35,8 @@ jobs:
         with:
           publish: yarn run release
           version: yarn run version
-          commit: "chore: new release"
-          title: "chore: new release candidate"
+          commit: 'chore: new release'
+          title: 'chore: new release candidate'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   #         NPM_TOKEN: ${{ secrets.NPM_TOKEN }} #if using NPM packages

@@ -1,11 +1,11 @@
 name: Setup
-description: "Set up the node environment"
+description: 'Set up the node environment'
 runs:
   using: composite
   steps:
     - uses: actions/setup-node@v4
       with:
-        node-version: lts/*
+        node-version: 18
     - name: Get yarn cache directory path
       shell: bash
       id: yarn-cache-dir-path
