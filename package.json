@@ -1,6 +1,7 @@
 {
   "name": "@openzeppelin/secure-development-cookbook",
   "version": "0.0.1",
+  "license": "MIT",
   "description": "The essential blueprint for crafting secure protocols",
   "main": "index.js",
   "keywords": [],
